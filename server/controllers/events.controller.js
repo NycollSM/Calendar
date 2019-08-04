@@ -10,7 +10,7 @@ const Utils = require('../core/utils');
 const ControllerConfig = {
     dir: `${__dirname}/../../images`,
     collection: 'images',
-    keys: ['_id', 'name', 'type', 'extension', 'createDate']
+    keys: ['_id', 'name', 'date', 'createNote']
 };
 
 class eventsC extends Controller {
